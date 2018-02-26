@@ -3,10 +3,12 @@ LeetCode Solution Code by Tiancheng Gong
 
 Covered Questions
 
-* Medium: 112
+* Medium: 134
 	* 011 Container With Most Water
 	* 012 Integer to Roman
+	* 016 3Sum Closest
 	* 022 Generate Parentheses
+	* 034 Search for a Range
 	* 035 Search Insert Position
 	* 039 Combination Sum
 	* 046 Permutations
@@ -26,11 +28,16 @@ Covered Questions
 	* 086 Partition List
 	* 089 Gray Code
 	* 090 Subsets II
+	* 092 Reverse Linked List II
 	* 094 Binary Tree Inorder Traversal
+	* 095 Unique Binary Search Trees II
 	* 096 Unique Binary Search Trees
 	* 103 Binary Tree Zigzag Level Order Traversal
+	* 105 Construct Binary Tree from Preorder and Inorder Traversal
+	* 106 Construct Binary Tree from Inorder and Postorder Traversal
 	* 108 Convert Sorted Array to Binary Search Tree
 	* 109 Convert Sorted List to Binary Search Tree
+	* 113 Path Sum II
 	* 114 Flatten Binary Tree to Linked List
 	* 116 Populating Next Right Pointers in Each Node
 	* 120 Triangle
@@ -49,6 +56,7 @@ Covered Questions
 	* 167 Two Sum II - Input array is sorted
 	* 173 Binary Search Tree Iterator
 	* 199 Binary Tree Right Side View
+	* 200 Number of Islands
 	* 201 Bitwise AND of Numbers Range
 	* 213 House Robber II
 	* 215 Kth Largest Element in an Array
@@ -68,6 +76,7 @@ Covered Questions
 	* 259 3Sum Smaller
 	* 260 Single Number III
 	* 261 Graph Valid Tree
+	* 264 Ugly Number II
 	* 268 Missing Number
 	* 274 H-Index
 	* 275 H-Index II
@@ -92,6 +101,7 @@ Covered Questions
 	* 323 Number of Connected Components in an Undirected Graph
 	* 328 Odd Even Linked List
 	* 331 Verify Preorder Serialization of a Binary Tree
+	* 333 Largest BST Subtree
 	* 334 Increasing Triplet Subsequence
 	* 337 House Robber III
 	* 338 Counting Bits
@@ -99,11 +109,13 @@ Covered Questions
 	* 343 Integer Break
 	* 347 Top K Frequent Elements
 	* 348 Design Tic-Tac-Toe
+	* 353 Design Snake Game
 	* 357 Count Numbers with Unique Digits
 	* 360 Sort Transformed Array
 	* 361 Bomb Enemy
 	* 362 Design Hit Counter
 	* 364 Nested List Weight Sum II
+	* 365 Water and Jug Problem
 	* 366 Find Leaves of Binary Tree
 	* 367 Valid Perfect Square
 	* 368 Largest Divisible Subset
@@ -116,21 +128,38 @@ Covered Questions
 	* 377 Combination Sum IV
 	* 378 Kth Smallest Element in a Sorted Matrix
 	* 379 Design Phone Directory
+	* 382 Linked List Random Node
+	* 384 Shuffle an Array
+	* 386 Lexicographical Numbers
+	* 388 Longest Absolute File Path
+	* 392 Is Subsequence
+	* 393 UTF-8 Validation
+	* 394 Decode String
+	* 395 Longest Substring with At Least K Repeating Characters
+	* 398 Random Pick Index
+	* 421 Maximum XOR of Two Numbers in an Array
 
-* Hard: 16
+* Hard: 23
 	* 033 Search in Rotated Sorted Array
 	* 051 N-Queens Complete
 	* 051 N-Queens
 	* 052 N-Queens
+	* 123 Best Time to Buy and Sell Stock III
 	* 145 Binary Tree Postorder Traversal
 	* 146 LRU Cache
 	* 159 Longest Substring with At Most Two Distinct Characters
+	* 188 Best Time to Buy and Sell Stock IV
 	* 265 Paint House II
+	* 269 Alien Dictionary
+	* 273 Integer to English Words
 	* 287 Find the Duplicate Number
 	* 291 Word Pattern II
 	* 296 Best Meeting Point
+	* 297 Serialize and Deserialize Binary Tree
 	* 305 Number of Islands II
 	* 312 Burst Balloons
+	* 329 Longest Increasing Path in a Matrix
 	* 340 Longest Substring with At Most K Distinct Characters
 	* 380 Insert Delete GetRandom O(1)
-	* 381. Insert Delete GetRandom O(1) - Duplicates allowed
+	* 381 Insert Delete GetRandom O(1) - Duplicates allowed
+	* 410 Split Array Largest Sum
