@@ -1,5 +1,5 @@
 # LeetCode
-LeetCode Solution Code by Tiancheng Gong
+LeetCode Solution rewritten using python
 
 Covered Questions
 
