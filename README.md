@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Xuhui-Wang/LeetCode-1.svg?branch=master)](https://travis-ci.org/Xuhui-Wang/LeetCode-1)
+
 # LeetCode
 LeetCode Solution rewritten using python
 
