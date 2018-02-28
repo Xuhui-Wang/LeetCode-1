@@ -1,6 +1,5 @@
 import unittest
 
-import unittest
 
 class WidgetTestCase(unittest.TestCase):
     def test_upper(self):
