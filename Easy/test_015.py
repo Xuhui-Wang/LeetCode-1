@@ -1,10 +1,10 @@
 import unittest
-import solution
+from lc_015_3Sum import Solution
 
 
 class WidgetTestCase(unittest.TestCase):
     def setUp(self):
-        self.sol = solution.Solution()
+        self.sol = Solution()
 
     def test_solution(self):
         nums = [-1, 0, 1, 2, -1, -4]
