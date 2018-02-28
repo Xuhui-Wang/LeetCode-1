@@ -13,3 +13,6 @@ class WidgetTestCase(unittest.TestCase):
         expect_sorted = sorted(expected, key=lambda x: str(x[0]) + "," + str(x[1]) + "," + str(x[2]))
         output_sorted = sorted(output, key=lambda x: str(x[0]) + "," + str(x[1]) + "," + str(x[2]))
         self.assertEqual(output_sorted, expect_sorted)
+
+    def tearDown(self):
+        del self.sol
