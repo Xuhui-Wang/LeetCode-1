@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // var a= document.createElement("option");
+        // a.value = "3";
+        // a.appendChild(document.createTextNode("MEr"));
+        // document.forms["cars"][1].appendChild(a);
+        // var a= document.createElement("<option value = '3'>Mer</option>");
+        // document.forms["cars"]["selectCar"].appendChild(a);
+
+        // class Employee {
+        //     cons
+        // }
+        /**
+        function validate(val) {
+            if (isNaN(val)) {
+                alert("XXX ");
+                document.frm.age.focus();
+            }
+        }
+        */
+
+        /*
+        var a= [99, 87, , 9, 928374];
+        a.find(function (value, index) {
+            if (index == 2)
+                delete a[2];
+            console.log(index);
+        });
+        */
+        /*
+        function test(a, b) {
+            return a + b;
+        }
+        // console.log(test.call(this, [2, 3]));
+        // console.log(test.apply(this, 2, 3));
+        console.log(test.call(this, 2, 3));
+        console.log(test.apply(this, [2, 3]));
+        // console.log(test.call(2, 3));
+        */
+        /*
+        var total = 0;
+        for (var x = 1; x < 5; x = x << 1) {
+            total += x;
+        }
+        document.write(total);
+        */
+        /*
+        function changeValue(f) {
+            var j = prompt("New value", "");
+            // f.forms.hiddenInput.value = j;
+            // f.hiddenInput.value = j;
+            // f[hiddenInput].value = j;
+            f.hiddenInput = j;
+        }*/
+        /*
+        function loadImage(url){
+  return new Promise(
+    function(resolve, reject){
+      var img = new Image();
+      img.onload = function(){
+        resolve(url);
+      };
+      img.onerror = function(){
+        reject(url);
+      };
+      img.src = url;
+  });
+}
+function displayImg(ms,promise){
+  return new Promise(function (resolve, reject) {
+    promise.then(resolve);
+    setTimeout(function () {
+      reject(new Error('Operation timed out after ' + ms + ' ms'));
+    }, ms); });
+}
+displayImg(5000,loadImage('image.jpg'))
+  .then(function(imgUrl){
+     document.getElementById('imgDiv').innerHTML = '<img src="' + imgUrl + '" />';
+  })
+  .catch(function(desc){
+     console.log('Error or timeout loading image: ' + desc);
+  });
+  */
+
+var a = "test";
+var b = String("test");
+var c= new String("test");
+
+
+    </script>
+</head>
+<body>
+    <!--<form id = "cars">-->
+        <!--&lt;!&ndash;<select id = "selectCar">&ndash;&gt;-->
+            <!--&lt;!&ndash;<option value = "1">ford</option>&ndash;&gt;-->
+            <!--&lt;!&ndash;<option value = "2">Cy</option>&ndash;&gt;-->
+        <!--&lt;!&ndash;</select>&ndash;&gt;-->
+    <!--</form>-->
+    <!--<form name = "frm">-->
+        <!--<label for = "age">Please</label>-->
+        <!--<input type = "text" name = "age" id = "age" onblur = "validate(this.value)" onchange = "blur()" />-->
+        <!--<input type = "submit" id = "Enter" />-->
+    <!--</form>-->
+    <!--<form name = "TestFrom">-->
+        <!--<input type = "hidden" name = "hiddenInput">-->
+        <!--<input type = "button" value = "Change Input" onclick="changeValue(this.form)">-->
+        <!--<input type = "submit" value = "Submit">-->
+    <!--</form>-->
+</body>
+</html>
