@@ -1,5 +1,5 @@
 class Solution:
-    # 2 pointers, O(N) time, O(1) solution
+    # 2 pointers, O(N) time, O(1) space solution
     def numSubarrayProductLessThanK(self, nums, k):
         """
         :type nums: List[int]
